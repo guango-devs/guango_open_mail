@@ -308,6 +308,7 @@ class MailAppPickerDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SimpleDialog(
+      backgroundColor: Color(0xFF001526),
       title: Text(title),
       children: <Widget>[
         for (var app in mailApps)
